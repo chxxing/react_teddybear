@@ -1,0 +1,37 @@
+@use 'basic';
+
+.Header {
+    line-height: 80px;
+    border-bottom: 1px solid basic.$gColor;
+
+    .gnb {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 0;
+        }
+
+        nav {
+            ul {
+                display: flex;
+                gap: 50px;
+
+                li {
+                    font-weight: 500;
+                    transition: 0.2s;
+
+                    &:hover {
+                        color: basic.$mColor;
+                    }
+                }
+            }
+        }
+
+        .icon {
+            display: flex;
+            gap: 10px;
+            font-size: 19px;
+        }
+    }
+}

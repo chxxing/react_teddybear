@@ -1,0 +1,70 @@
+@use 'basic';
+
+.MainSlide {
+    height: calc(100vh - 162px);
+
+    figure {
+        position: relative;
+        height: calc(100vh - 162px);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &.itm01 {
+            background-image: url(../../public/assets/images/mainvisual01.jpg);
+        }
+
+        &.itm02 {
+            background-image: url(../../public/assets/images/mainvisual02.jpg);
+        }
+
+        &.itm03 {
+            background-image: url(../../public/assets/images/mainvisual03.jpg);
+        }
+
+        &.itm04 {
+            background-image: url(../../public/assets/images/mainvisual04.jpg);
+        }
+
+        .inner {
+            position: absolute;
+            color: basic.$wColor;
+            text-shadow: 0 0 2px basic.$bColor;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -70%);
+            text-align: center;
+
+            strong {
+                display: block;
+                font-size: 19px;
+                font-weight: 500;
+                margin: 0 0 15px 0;
+            }
+
+            h2 {
+                font-size: 80px;
+                font-weight: 900;
+                margin: 0 0 40px 0;
+            }
+
+            .des {
+                font-size: 25px;
+                font-weight: 600;
+                margin: 0 0 20px 0;
+            }
+
+            .more {
+                display: inline-block;
+                font-size: 17px;
+                font-weight: 300;
+                background: basic.$mColor;
+                border: 1px solid basic.$mColor;
+                border-radius: 20px;
+                text-shadow: none;
+                padding: 10px 30px;
+            }
+
+        }
+    }
+}

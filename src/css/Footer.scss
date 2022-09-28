@@ -1,0 +1,41 @@
+@use 'basic';
+
+.Footer {
+    border-top: 1px solid basic.$gColor;
+    border-bottom: 1px solid basic.$gColor;
+    padding: 20px 0;
+    font-size: 13px;
+    font-weight: 500;
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+
+        .box {
+            line-height: 1.5;
+        }
+
+        ul {
+            display: flex;
+
+            li~li::before {
+                content: "";
+                display: inline-block;
+                margin: 0 15px;
+                width: 1px;
+                height: 10px;
+                background: basic.$gColor;
+            }
+        }
+
+        .snsIcon {
+            display: inline-flex;
+            font-size: 19px;
+            align-items: center;
+
+            svg {
+                margin: 0 0 0 10px;
+            }
+        }
+    }
+}
