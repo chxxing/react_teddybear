@@ -36,8 +36,8 @@ const MainSlide = () => {
                 }
             </Slider>
             <div className='Arrows'>
-                <CgChevronLeft onClick={() => SLIDE.current.slickPrev()} />
-                <CgChevronRight onClick={() => SLIDE.current.slickNext()} />
+                <button onClick={() => SLIDE.current.slickPrev()}><CgChevronLeft /></button>
+                <button onClick={() => SLIDE.current.slickNext()}><CgChevronRight /></button>
             </div>
         </section>
     )
