@@ -1,10 +1,22 @@
 {
   "files": {
-    "main.js": "/react_teddybear/static/js/main.01ba824e.js",
+    "main.css": "/react_teddybear/static/css/main.b5d778bb.css",
+    "main.js": "/react_teddybear/static/js/main.29930b08.js",
+    "static/media/qna_bg.png": "/react_teddybear/static/media/qna_bg.5c1dde2bd62d2ff5dcbf.png",
+    "static/media/place_bg.png": "/react_teddybear/static/media/place_bg.917b8d44601d2a5a2010.png",
+    "static/media/gift_bg.png": "/react_teddybear/static/media/gift_bg.ee6802274a9cfdcd8884.png",
+    "static/media/event_bg.jpg": "/react_teddybear/static/media/event_bg.ed64ad35107a62f53d6e.jpg",
+    "static/media/mainvisual01.jpg": "/react_teddybear/static/media/mainvisual01.c5d632578c5903d0e6d2.jpg",
+    "static/media/musium_bg.jpg": "/react_teddybear/static/media/musium_bg.85d9330839714b8bc7f2.jpg",
+    "static/media/mainvisual03.jpg": "/react_teddybear/static/media/mainvisual03.05475ce0f380dc819d69.jpg",
+    "static/media/mainvisual04.jpg": "/react_teddybear/static/media/mainvisual04.eaee13a40116c140f5b7.jpg",
+    "static/media/mainvisual02.jpg": "/react_teddybear/static/media/mainvisual02.b1b46ab6700bf04928a9.jpg",
     "index.html": "/react_teddybear/index.html",
-    "main.01ba824e.js.map": "/react_teddybear/static/js/main.01ba824e.js.map"
+    "main.b5d778bb.css.map": "/react_teddybear/static/css/main.b5d778bb.css.map",
+    "main.29930b08.js.map": "/react_teddybear/static/js/main.29930b08.js.map"
   },
   "entrypoints": [
-    "static/js/main.01ba824e.js"
+    "static/css/main.b5d778bb.css",
+    "static/js/main.29930b08.js"
   ]
 }
