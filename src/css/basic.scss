@@ -1,9 +1,58 @@
 $mColor: #e36b2f;
 $wColor: #ffffff;
-$bColor: #000000;
 $gColor: #f1eeeb;
+$sColor: #53361e;
 
 .inner {
     width: 1170px;
     margin: 0 auto;
+}
+
+.sc {
+    figure {
+        position: relative;
+    }
+
+    .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-shadow: 0 0 2px $sColor;
+        color: $wColor;
+
+        h2 {
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0 0 20px 0;
+        }
+
+        .des {
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 1.3;
+            white-space: pre;
+        }
+    }
+}
+
+.Article {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    h3 {
+        font-size: 27px;
+        font-weight: 600;
+
+        &::after {
+            content: "";
+            display: block;
+            margin: 20px 0 40px 0;
+            width: 40px;
+            height: 3px;
+            background: $mColor;
+        }
+    }
 }

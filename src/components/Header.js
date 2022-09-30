@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import '../css/Header.scss';
 
-const Header = () => {
+const Header = ({ content }) => {
     return (
         <header className="Header">
             <div className="gnb inner">
@@ -14,7 +14,7 @@ const Header = () => {
                     </Link>
                 </h1>
                 <nav>
-                    <Nav />
+                    <Nav navcon={content} />
                 </nav>
                 <ul className='icon'>
                     <li><CgSearch /></li>
