@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import Slider from "react-slick";
-import { main_content } from '../data/common.js';
 import "slick-carousel/slick/slick.css";
+import { main_content } from '../data/common.js';
 import '../css/MainSlide.scss';
 import { Link } from 'react-router-dom';
 import { CgChevronLeft, CgChevronRight } from "react-icons/cg";

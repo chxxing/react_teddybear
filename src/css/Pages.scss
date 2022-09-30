@@ -99,6 +99,69 @@
             color: basic.$sColor;
         }
     }
+
+    .Article {
+        .container {
+            figure {
+                position: relative;
+                height: 500px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                &.itm01 {
+                    background-image: url(../../public/assets/images/gift01.jpg);
+                }
+
+                &.itm02 {
+                    background-image: url(../../public/assets/images/gift02.jpg);
+                }
+
+                &.itm03 {
+                    background-image: url(../../public/assets/images/gift03.jpg);
+                }
+
+                &.itm04 {
+                    background-image: url(../../public/assets/images/gift04.jpg);
+                }
+
+                &.itm05 {
+                    background-image: url(../../public/assets/images/gift05.jpg);
+                }
+
+                &.itm06 {
+                    background-image: url(../../public/assets/images/gift06.jpg);
+                }
+            }
+
+            .slick-dots {
+                position: absolute;
+                bottom: -30px;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+
+                li {
+                    display: inline-block;
+                    margin: 0 5px;
+
+                    button {
+                        width: 40px;
+                        height: 5px;
+                        background: basic.$gColor;
+                        font-size: 0;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                    }
+
+                    &.slick-active button {
+                        background: basic.$mColor;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .Qna {
