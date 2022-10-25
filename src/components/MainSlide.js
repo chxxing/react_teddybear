@@ -1,13 +1,12 @@
 import React, { useRef } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import { main_content } from '../data/common.js';
 import '../css/MainSlide.scss';
 import { Link } from 'react-router-dom';
 import { CgChevronLeft, CgChevronRight } from "react-icons/cg";
 
 
-const MainSlide = () => {
+const MainSlide = ({ content }) => {
     const SLIDE = useRef(null);
     return (
         <section className='MainSlide'>
@@ -21,7 +20,7 @@ const MainSlide = () => {
                 ref={SLIDE}
             >
                 {
-                    main_content.map((it, idx) => {
+                    content.map((it, idx) => {
                         return (
                             <figure className={`itm0${idx + 1}`} key={it.id}>
                                 <div className="inner">
