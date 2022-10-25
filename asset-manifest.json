@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_teddybear/static/css/main.162c4b0f.css",
-    "main.js": "/react_teddybear/static/js/main.9e0aa6de.js",
+    "main.css": "/react_teddybear/static/css/main.10147c14.css",
+    "main.js": "/react_teddybear/static/js/main.a055d9e5.js",
     "static/media/qna_bg.png": "/react_teddybear/static/media/qna_bg.5c1dde2bd62d2ff5dcbf.png",
     "static/media/place_bg.png": "/react_teddybear/static/media/place_bg.917b8d44601d2a5a2010.png",
     "static/media/gift_bg.png": "/react_teddybear/static/media/gift_bg.ee6802274a9cfdcd8884.png",
@@ -11,18 +11,17 @@
     "static/media/gift06.jpg": "/react_teddybear/static/media/gift06.206fa8814171cbc4f101.jpg",
     "static/media/gift01.jpg": "/react_teddybear/static/media/gift01.64f71045d682c09d2cf6.jpg",
     "static/media/gift05.jpg": "/react_teddybear/static/media/gift05.ae68905f86e594b28288.jpg",
-    "static/media/event_bg.jpg": "/react_teddybear/static/media/event_bg.ed64ad35107a62f53d6e.jpg",
     "static/media/mainvisual01.jpg": "/react_teddybear/static/media/mainvisual01.c5d632578c5903d0e6d2.jpg",
     "static/media/musium_bg.jpg": "/react_teddybear/static/media/musium_bg.85d9330839714b8bc7f2.jpg",
     "static/media/mainvisual03.jpg": "/react_teddybear/static/media/mainvisual03.05475ce0f380dc819d69.jpg",
     "static/media/mainvisual04.jpg": "/react_teddybear/static/media/mainvisual04.eaee13a40116c140f5b7.jpg",
     "static/media/mainvisual02.jpg": "/react_teddybear/static/media/mainvisual02.b1b46ab6700bf04928a9.jpg",
     "index.html": "/react_teddybear/index.html",
-    "main.162c4b0f.css.map": "/react_teddybear/static/css/main.162c4b0f.css.map",
-    "main.9e0aa6de.js.map": "/react_teddybear/static/js/main.9e0aa6de.js.map"
+    "main.10147c14.css.map": "/react_teddybear/static/css/main.10147c14.css.map",
+    "main.a055d9e5.js.map": "/react_teddybear/static/js/main.a055d9e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.162c4b0f.css",
-    "static/js/main.9e0aa6de.js"
+    "static/css/main.10147c14.css",
+    "static/js/main.a055d9e5.js"
   ]
 }
