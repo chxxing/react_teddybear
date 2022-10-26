@@ -5,7 +5,8 @@ import Gunsan from './Gunsan';
 import Jeju from './Jeju';
 import Yeosu from './Yeosu';
 import '../css/Place.scss';
-import { PLACE } from '../data/placedata.js';
+import { PLACE, JEJUMSM, YEOSUMSM, CHENGDUMSM, GUNSANMSM } from '../data/placedata.js';
+
 
 const Place = ({ content }) => {
     return (
@@ -26,10 +27,10 @@ const Place = ({ content }) => {
             </figure>
             <div className="inner">
                 <Routes>
-                    <Route path='/jeju' element={<Jeju placedata={PLACE} />}></Route>
-                    <Route path='/yeosu' element={<Yeosu placedata={PLACE} />}></Route>
-                    <Route path='/gunsan' element={<Gunsan placedata={PLACE} />}></Route>
-                    <Route path='/chengdu' element={<Chengdu placedata={PLACE} />}></Route>
+                    <Route path='/jeju' element={<Jeju placedata={PLACE} content={JEJUMSM} />}></Route>
+                    <Route path='/yeosu' element={<Yeosu placedata={PLACE} content={YEOSUMSM} />}></Route>
+                    <Route path='/gunsan' element={<Gunsan placedata={PLACE} content={GUNSANMSM} />}></Route>
+                    <Route path='/chengdu' element={<Chengdu placedata={PLACE} content={CHENGDUMSM} />}></Route>
                 </Routes>
             </div>
         </section >

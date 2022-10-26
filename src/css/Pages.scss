@@ -82,13 +82,6 @@
     }
 }
 
-.Event {
-    .banner {
-        background: url(../../public/assets/images/event_bg.jpg) no-repeat center center/cover;
-        height: 290px;
-    }
-}
-
 .Gift {
     .banner {
         background: url(../../public/assets/images/gift_bg.png) no-repeat center center/cover;
@@ -101,6 +94,21 @@
     }
 
     .Article {
+        h3 {
+            text-align: center;
+
+            &::after {
+                margin: 20px auto 30px auto;
+            }
+        }
+
+        .description {
+            font-size: 15px;
+            line-height: 1.45;
+            text-align: center;
+            margin: 0 0 40px 0;
+        }
+
         .container {
             figure {
                 position: relative;
@@ -108,6 +116,7 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+                font-size: 0;
 
                 &.itm01 {
                     background-image: url(../../public/assets/images/gift01.jpg);
@@ -136,7 +145,7 @@
 
             .slick-dots {
                 position: absolute;
-                bottom: -30px;
+                bottom: -35px;
                 left: 50%;
                 transform: translateX(-50%);
                 text-align: center;
@@ -160,6 +169,7 @@
                     }
                 }
             }
+
         }
     }
 }
@@ -174,4 +184,133 @@
             color: basic.$sColor;
         }
     }
+
+    .qna_page {
+        padding: 100px 0;
+
+        h3 {
+            font-size: 27px;
+            font-weight: 600;
+
+            &::after {
+                content: "";
+                display: block;
+                margin: 20px 0 40px 0;
+                width: 40px;
+                height: 3px;
+                background: basic.$mColor;
+            }
+        }
+
+        .tab_menu {
+            border-bottom: 1px solid basic.$gColor;
+            margin: 0 0 60px 0;
+
+            .inner {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+
+                li {
+                    padding: 20px 129px;
+                    font-size: 17px;
+                    font-weight: 500;
+                    background: #f7F8f9;
+                    border-right: 1px solid basic.$gColor;
+                    border-top: 1px solid basic.$gColor;
+                    cursor: pointer;
+
+                    &:first-child {
+                        border-left: 1px solid basic.$gColor;
+                    }
+
+                    &.on {
+                        position: relative;
+                        background: basic.$mColor;
+                        border-bottom: 1px solid basic.$wColor;
+                        color: basic.$wColor;
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 1px;
+                            bottom: -2px;
+                            left: 0;
+                            background: basic.$wColor;
+                        }
+                    }
+                }
+            }
+        }
+
+        .board {
+            .qna_table {
+                width: 100%;
+                border-top: 3px solid basic.$mColor;
+
+                tbody {
+                    border-top: 1px solid basic.$gColor;
+                    border-spacing: 0;
+                    border-collapse: collapse;
+                }
+
+                th {
+                    padding: 15px 20px;
+                    text-align: left;
+                    font-weight: 600;
+                    background: #f7F8f9;
+
+                    &:nth-child(1) {
+                        width: 10%;
+                    }
+
+                    &:nth-child(2) {
+                        width: 60%;
+                    }
+
+                    &:nth-child(3) {
+                        width: 10%;
+                    }
+
+                    &:nth-child(4) {
+                        width: 20%;
+                    }
+                }
+
+                td {
+                    padding: 20px;
+                    border-bottom: 1px solid basic.$gColor;
+                }
+            }
+        }
+    }
 }
+
+
+//     tr {
+//         border-bottom: 1px solid common.$lColor;
+//     }
+
+//     th {
+//         padding: 15px 20px;
+//         text-align: left;
+//         background: common.$sgColor;
+//         font-weight: 500;
+
+//         &~th {
+//             width: 75%;
+//             border-left: 1px solid common.$lColor;
+//         }
+//     }
+
+
+//     td {
+//         padding: 20px;
+
+//         &~td {
+//             width: 75%;
+//             border-left: 1px solid common.$lColor;
+//         }
+//     }
+// }
