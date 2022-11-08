@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_teddybear/static/css/main.10147c14.css",
-    "main.js": "/react_teddybear/static/js/main.a055d9e5.js",
+    "main.css": "/react_teddybear/static/css/main.de21898c.css",
+    "main.js": "/react_teddybear/static/js/main.339c3393.js",
     "static/media/qna_bg.png": "/react_teddybear/static/media/qna_bg.5c1dde2bd62d2ff5dcbf.png",
     "static/media/place_bg.png": "/react_teddybear/static/media/place_bg.917b8d44601d2a5a2010.png",
     "static/media/gift_bg.png": "/react_teddybear/static/media/gift_bg.ee6802274a9cfdcd8884.png",
@@ -17,11 +17,11 @@
     "static/media/mainvisual04.jpg": "/react_teddybear/static/media/mainvisual04.eaee13a40116c140f5b7.jpg",
     "static/media/mainvisual02.jpg": "/react_teddybear/static/media/mainvisual02.b1b46ab6700bf04928a9.jpg",
     "index.html": "/react_teddybear/index.html",
-    "main.10147c14.css.map": "/react_teddybear/static/css/main.10147c14.css.map",
-    "main.a055d9e5.js.map": "/react_teddybear/static/js/main.a055d9e5.js.map"
+    "main.de21898c.css.map": "/react_teddybear/static/css/main.de21898c.css.map",
+    "main.339c3393.js.map": "/react_teddybear/static/js/main.339c3393.js.map"
   },
   "entrypoints": [
-    "static/css/main.10147c14.css",
-    "static/js/main.a055d9e5.js"
+    "static/css/main.de21898c.css",
+    "static/js/main.339c3393.js"
   ]
 }
