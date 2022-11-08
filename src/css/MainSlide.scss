@@ -1,5 +1,14 @@
 @use 'basic';
 
+// 링크 오류 수정
+.slick-slide {
+    visibility: hidden;
+}
+
+.slick-slide.slick-active {
+    visibility: visible;
+}
+
 .MainSlide {
     position: relative;
     height: calc(100vh - 162px);
@@ -65,7 +74,6 @@
                 text-shadow: none;
                 padding: 10px 30px;
             }
-
         }
     }
 

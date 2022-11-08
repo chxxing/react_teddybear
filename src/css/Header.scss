@@ -1,6 +1,7 @@
 @use 'basic';
 
 .Header {
+    position: relative;
     line-height: 80px;
     border-bottom: 1px solid basic.$gColor;
 
@@ -32,6 +33,46 @@
             display: flex;
             gap: 10px;
             font-size: 19px;
+            cursor: pointer;
+        }
+    }
+
+    .searchBox {
+        display: none;
+
+        &.on {
+            display: block;
+        }
+
+        .Search {
+            position: absolute;
+            top: 80px;
+            right: 50px;
+            padding: 10px 100px;
+            background: basic.$wColor;
+            border: 1px solid basic.$gColor;
+            z-index: 999;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -11px;
+                left: 80px;
+                width: 20px;
+                height: 20px;
+                border-left: 1px solid basic.$gColor;
+                border-top: 1px solid basic.$gColor;
+                background: basic.$wColor;
+                transform: rotate(45deg);
+            }
+
+            button {
+                padding-right: 8px;
+
+                svg {
+                    vertical-align: -0.2em;
+                }
+            }
         }
     }
 }

@@ -33,8 +33,16 @@
             font-size: 19px;
             align-items: center;
 
-            svg {
+            a {
+                border: 1px solid basic.$gColor;
+                border-radius: 10px;
+                padding: 6px;
                 margin: 0 0 0 10px;
+
+                svg {
+                    vertical-align: middle;
+                    font-size: 18px;
+                }
             }
         }
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CgFacebook, CgInstagram } from "react-icons/cg";
+import { CgFacebook, CgInstagram, CgWebsite } from "react-icons/cg";
 import '../css/Footer.scss';
 
 const Footer = ({ content }) => {
@@ -16,11 +16,12 @@ const Footer = ({ content }) => {
                     <strong>Copyright &copy; {content.copy}</strong>
                 </div>
                 <div className="snsIcon">
-                    <CgFacebook />
-                    <CgInstagram />
+                    <a href="https://www.facebook.com/tbmsince2001" target='_blank'><CgFacebook /></a>
+                    <a href="https://www.instagram.com/teddybearmuseum/" target='_blank'><CgInstagram /></a>
+                    <a href="https://blog.naver.com/teddybear_jsnf" target='_blank'><CgWebsite /></a>
                 </div>
             </div>
-        </footer>
+        </footer >
     )
 }
 
