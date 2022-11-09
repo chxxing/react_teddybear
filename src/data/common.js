@@ -35,7 +35,7 @@ const QNA = [
     },
     {
         id: 2,
-        cate: "QNA", board: [
+        cate: "Q&A", board: [
             { id: 1, question: "문의드립니다 :)", name: "최은진", date: "2022-10-26" },
             { id: 2, question: "문의드립니다 :)", name: "김은진", date: "2022-10-25" },
             { id: 3, question: "문의드립니다 :)", name: "이은진", date: "2022-10-24" },
