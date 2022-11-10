@@ -5,7 +5,8 @@ import Nav from './Nav';
 import Search from './Search';
 import '../css/Header.scss';
 
-const Header = ({ content }) => {
+
+const Header = ({ content, place }) => {
     const [on, setOn] = useState(false);
     return (
         <header className="Header">
@@ -24,7 +25,7 @@ const Header = ({ content }) => {
                 </ul>
             </div>
             <div className={`searchBox ${on ? 'on' : ""}`}>
-                <Search />
+                <Search on={on} setOn={setOn} place={place} />
             </div>
         </header>
     )

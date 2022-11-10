@@ -14,7 +14,7 @@ import './css/Pages.scss';
 const App = () => {
   return (
     <div className='Wrapper'>
-      <Header content={page_content} />
+      <Header content={page_content} place={main_content} />
       <Routes>
         <Route path='/' element={<MainSlide content={main_content} />}></Route>
         <Route path='/musium' element={<Musium content={page_content} />}></Route>
